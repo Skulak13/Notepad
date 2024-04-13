@@ -1,0 +1,33 @@
+#textField {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: block;
+}
+
+#add {
+    margin-top: 10px;
+}
+
+#yourNotes {
+    font-family: "Pacifico";
+}
+
+.hidden {
+    display: none;
+}
+
+.delete {
+    display: none;
+    margin-left: 10px;
+}
+
+#notesList div:hover .delete {
+    display: inline-block;
+}
+
+h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #333;
+}
